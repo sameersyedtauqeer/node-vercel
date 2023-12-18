@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start",
-    "dev": "node run dev"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +15,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.4.3",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.7"
   }
 }
